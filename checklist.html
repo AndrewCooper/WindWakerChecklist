@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Wind Waker Checklist</title>
+        <link rel="stylesheet" type="text/css" href="../libChecklist/libChecklist.css" />
+        <script type="text/javascript" src="../libChecklist/libChecklist.js"></script>
+        <script type="text/javascript" src="tasks.js"></script>
+    </head>
+    <body>
+        <div id="nav_bar">
+            <a href="javascript:showMainQuest()">[Main Quest]</a>
+            <a href="javascript:showSideQuests()">[Side Quests]</a>
+            <a href="javascript:showCharts()">[Charts]</a>
+            <a href="javascript:showTreasures()">[Treasures]</a>
+            <a href="javascript:showHearts()">[Heart Pieces]</a>
+            <a href="javascript:showRupees()">[Rupees]</a>
+        </div>
+        <div id="main">
+            <div id="map">
+            </div>
+            <div id="tasks">
+            </div>
+        </div>
+        <script type="text/javascript">
+            applyLocalStorage()
+            showMainQuest()
+        </script>
+    </body>
+</html>
